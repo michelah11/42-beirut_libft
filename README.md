@@ -17,10 +17,12 @@ This version includes both **mandatory** and **bonus** functions, offering full 
 
 ## 📁 Project Structure
 
-`libft/`<br>
-├── `ft_*.c` `# Implementation of all required and bonus functions`<br>
-├── `libft.h` `# Header file containing function prototypes and the t_list structure`<br>
-├── `Makefile` `# Build script with standard rules (all, clean, fclean, re, bonus)`<br>
+```
+libft/
+├── ft_*.c        # Implementation of all required and bonus functions
+├── libft.h       # Header file containing function prototypes and the t_list structure
+├── Makefile      # Build script with standard rules (all, clean, fclean, re, bonus)
+```
 
 ---
 
@@ -59,3 +61,4 @@ make clean   # Removes object files
 make fclean  # Removes object files and libft.a
 make re      # Cleans and rebuilds everything
 make bonus   # Builds with bonus part (linked list)
+```
